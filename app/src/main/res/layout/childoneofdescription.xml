@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#2F4F4F"
+
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RECENT COMMENTS"
+      android:textSize="20dp"
+      android:textStyle="bold"
+      android:id="@+id/comments"
+      android:textColor="@android:color/white"
+      android:layout_centerInParent="true"
+      android:layout_alignParentTop="true"
+      android:background="@drawable/rounded_cornerfordescription"
+      />
+    <ImageView
+        android:layout_below="@id/comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left"
+        android:src="@drawable/left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+    <com.robosoft.archanakumari.populardestination.RoundedImageView
+        android:id="@+id/imag"
+        android:layout_width="50dp"
+        android:layout_below="@id/comments"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/newyork"
+        android:layout_toRightOf="@id/left"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edward Philips"
+        android:id="@+id/name"
+        android:layout_toRightOf="@id/imag"
+        android:layout_below="@id/comments"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="#20B2AA"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Sunny days. rockey mountain ranges great forests all you need!"
+        android:id="@+id/description"
+        android:layout_toRightOf="@id/imag"
+        android:layout_below="@id/name"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View all"
+        android:id="@+id/message"
+        android:layout_toRightOf="@id/description"
+        android:textStyle="italic"
+        android:layout_below="@id/name"
+        android:textColor="#20B2AA"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

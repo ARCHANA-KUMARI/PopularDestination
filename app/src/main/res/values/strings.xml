@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_description"></string>
+    <string-array name="name">
+        <item>327</item>
+        <item>475</item>
+        <item>153</item>
+
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

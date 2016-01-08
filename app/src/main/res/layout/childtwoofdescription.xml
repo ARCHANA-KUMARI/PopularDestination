@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#2F4F4F" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/layoutone">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/places"
+    android:text="POPULAR PLACES"
+    android:textSize="30sp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    android:background="@drawable/rounded_cornerfordescription"
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:src="@drawable/one"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_below="@id/places"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coeffeemug"
+        android:layout_toRightOf="@id/number"
+        android:layout_below="@id/places"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/cafe"/>
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Cafe Fellini"
+        android:id="@+id/nameofplace"
+        android:textColor="#20B2AA"
+        android:layout_below="@id/places"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/coeffeemug"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/minute"
+        android:layout_below="@id/places"
+        android:textSize="20sp"
+        android:textColor="#20B2AA"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/nameofplace"
+        android:text="587 visits"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="1422 Fulton Street Brooklyn,NY 11216"
+        android:layout_below="@id/nameofplace"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/coeffeemug"
+        android:id="@+id/descriptionofchildtwo"
+
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutone"
+        android:id="@+id/layouttwo"
+        >
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/placesoflayoutwo"
+            android:text="POPULAR PLACES"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_cornerfordescription"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberoflayouttwo"
+            android:src="@drawable/two"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+
+           />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/coeffeemugoflayouttwo"
+            android:layout_toRightOf="@id/numberoflayouttwo"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/barof"/>
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Jacob Club Bar"
+            android:id="@+id/nameofplaceoflayouttwo"
+            android:textColor="#20B2AA"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/coeffeemugoflayouttwo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minuteoflayouttow"
+
+            android:textSize="20sp"
+            android:textColor="#20B2AA"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/nameofplaceoflayouttwo"
+            android:text="493 visits"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="57 East 55th Street New York,NY 10022 "
+            android:layout_below="@id/nameofplaceoflayouttwo"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@id/coeffeemugoflayouttwo"
+            android:id="@+id/decriptionofchildtwooflayouttow"
+
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:scaleType="centerCrop"
+     android:id="@+id/back"
+     android:src="@drawable/sanfrancisko"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp" 
+        android:id="@+id/fevorite"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_favorite_white_18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfevorite"
+        android:layout_toRightOf="@id/fevorite"
+        android:text="7.5K"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAN FRANCISKO"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_toRightOf="@id/textfevorite"
+        android:id="@+id/name"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4775 Visitors"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/visitor"
+
+        />
+
+</RelativeLayout>
